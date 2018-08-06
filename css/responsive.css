@@ -124,10 +124,15 @@
 	.team-section{
 		padding-top:40px;
 	}
+
+	.services-block-two {
+		margin-bottom: 0px;
+	}
 	
 	.services-block-two .inner-box,
 	.testimonial-section{
 		padding:0px;
+		margin-bottom: 50px;
 	}
 	
 	.blog-section{
@@ -244,6 +249,10 @@
 	.page-title h2 .white-color{
 		color:inherit;	
 	}
+
+	.main-header {
+		display: none;
+	}
 	
 	.main-header .nav-outer{
 		padding-right:0px;	
@@ -321,7 +330,7 @@
 	}
 	
 	.main-footer{
-		padding:100px 0px 100px;
+		padding: 50px 0px 50px;
 	}
 	
 	.team-section-two .sec-title{
@@ -836,6 +845,7 @@
 	
 	.about-section .text{
 		font-size:16px;
+		margin-top: 80px;
 	}
 	
 	.portfolio-section-two .gallery-item.medium-column,
@@ -994,6 +1004,15 @@
 	
 	.page-title .lined-pink{
 		display:none;	
+	}
+
+	.home-title {
+    	padding: 66px;
+    	height: 38vh;
+	}
+
+	.gallery-section {
+		padding: 100px 0px 100px;
 	}
 	
 }
