@@ -327,11 +327,6 @@
 	.gallery-section {
 		padding: 100px 0px 100px;
 	}
-	/* .page-title .auto-container {
-		overflow: hidden;
-		position: absolute;
-		right: 42px;
-	} */
 }
 
 @media only screen and (max-width: 767px) {
@@ -654,6 +649,10 @@
 	}
 	.page-title h2 {
 		font-size: 52px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 	.main-slider .content-image.content-image-2,
 	.main-slider .content-image.image-one {
@@ -816,7 +815,7 @@
 		display: none;
 	}
 	.home-title {
-		background-size: 300%;
+		background-size: 400%;
 		padding: 180px 42px;
 	}
 }
@@ -842,6 +841,10 @@
 	.main-slider h3,
 	.page-title h2 {
 		font-size: 40px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 	.sec-title h2 {
 		font-size: 24px;
@@ -899,6 +902,10 @@
 	.page-title h2,
 	.main-banner-section h2 {
 		font-size: 56px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 	.services-section-two h2 {
 		font-size: 24px;
