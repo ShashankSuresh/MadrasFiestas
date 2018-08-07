@@ -818,6 +818,19 @@
 		background-size: 400%;
 		padding: 180px 42px;
 	}
+	.portfolio {
+		padding: 50px;
+		background-image: url(../images/girl.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position-y: -48px;
+	}
+	.page-title.portfolio h2 {
+		position: absolute;
+		top: 52px;
+		width: 100%;
+		font-size: 40px;
+	}
 }
 
 @media only screen and (max-width: 599px) {
